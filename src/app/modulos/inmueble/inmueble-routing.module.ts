@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ValidadorSesionGuard } from 'src/app/validador-sesion.guard';
+import { ValidadorSesionGuard } from 'src/app/guardianes/validador-sesion.guard';
 import { CrearInmuebleComponent } from './crear-inmueble/crear-inmueble.component';
 import { CrudInmuebleComponent } from './crud-inmueble/crud-inmueble.component';
 import { EditarInmuebleComponent } from './editar-inmueble/editar-inmueble.component';
